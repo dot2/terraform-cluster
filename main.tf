@@ -6,8 +6,8 @@ resource "ibm_container_cluster" "cluster" {
   default_pool_size = 2
   machine_type      = "${var.machine_type}"
   isolation         = "${var.isolation}"
-  public_vlan_id    = "${var.public_vlan_id}"
-  private_vlan_id   = "${var.private_vlan_id}"
+#   public_vlan_id    = "${var.public_vlan_id}"
+#   private_vlan_id   = "${var.private_vlan_id}"
 }
 
 
