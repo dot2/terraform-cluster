@@ -10,14 +10,6 @@ variable "isolation" {
   default = "public"
 }
 
-variable "private_vlan_id" {
-  default = "2646169"
-}
-
-variable "public_vlan_id" {
-   default = "2646167"
-}
-
 variable "cluster_name" {
   default = "clustermytest"
 }
